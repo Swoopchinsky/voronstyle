@@ -1,16 +1,12 @@
 {
   "files": {
-    "main.css": "/voronstyle/static/css/main.f855e6bc.css",
-    "main.js": "/voronstyle/static/js/main.214b7dfb.js",
-    "static/js/453.2444429f.chunk.js": "/voronstyle/static/js/453.2444429f.chunk.js",
-    "static/media/logo.svg": "/voronstyle/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/voronstyle/static/css/main.31d6cfe0.css",
+    "main.js": "/voronstyle/static/js/main.78f365d7.js",
     "index.html": "/voronstyle/index.html",
-    "main.f855e6bc.css.map": "/voronstyle/static/css/main.f855e6bc.css.map",
-    "main.214b7dfb.js.map": "/voronstyle/static/js/main.214b7dfb.js.map",
-    "453.2444429f.chunk.js.map": "/voronstyle/static/js/453.2444429f.chunk.js.map"
+    "main.78f365d7.js.map": "/voronstyle/static/js/main.78f365d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.214b7dfb.js"
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.78f365d7.js"
   ]
 }
