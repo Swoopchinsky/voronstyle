@@ -1,20 +1,15 @@
-
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Romch from "./components/Romch";
 
 function App() {
   return (
+    <div className="osnova">
+      <Header />
+      <Romch />
+      <Footer />
 
-    <div>
-      foto
-      <p>
-        foto <code>cooperative</code> mastatrue
-      </p>
-      <a
-        className="App-link"
-        href="https://swoopchinsky.github.io/styleroom"
 
-      >
-        https://swoopchinsky.github.io/styleroom
-      </a>
     </div>
   );
 }
