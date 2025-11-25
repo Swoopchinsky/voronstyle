@@ -4,10 +4,7 @@ import Romch from "./components/Romch";
 
 
 
-
-
 function App() {
-
   return (
     <div className="osnova">
       <Header />
