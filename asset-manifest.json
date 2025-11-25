@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/voronstyle/static/css/main.31d6cfe0.css",
-    "main.js": "/voronstyle/static/js/main.78f365d7.js",
+    "main.js": "/voronstyle/static/js/main.5b6c0bae.js",
     "index.html": "/voronstyle/index.html",
-    "main.78f365d7.js.map": "/voronstyle/static/js/main.78f365d7.js.map"
+    "main.5b6c0bae.js.map": "/voronstyle/static/js/main.5b6c0bae.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.78f365d7.js"
+    "static/js/main.5b6c0bae.js"
   ]
 }
