@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/voronstyle/static/css/main.3158c27c.css",
-    "main.js": "/voronstyle/static/js/main.5b6c0bae.js",
+    "main.css": "/voronstyle/static/css/main.d3c541a5.css",
+    "main.js": "/voronstyle/static/js/main.75dc5c3f.js",
     "static/media/fonNeva.jpg": "/voronstyle/static/media/fonNeva.b56ce14b81bd7cb3fde1.jpg",
     "index.html": "/voronstyle/index.html",
-    "main.3158c27c.css.map": "/voronstyle/static/css/main.3158c27c.css.map",
-    "main.5b6c0bae.js.map": "/voronstyle/static/js/main.5b6c0bae.js.map"
+    "main.d3c541a5.css.map": "/voronstyle/static/css/main.d3c541a5.css.map",
+    "main.75dc5c3f.js.map": "/voronstyle/static/js/main.75dc5c3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3158c27c.css",
-    "static/js/main.5b6c0bae.js"
+    "static/css/main.d3c541a5.css",
+    "static/js/main.75dc5c3f.js"
   ]
 }
