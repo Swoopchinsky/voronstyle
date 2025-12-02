@@ -3,7 +3,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 import './Carousel.css'
 
-const PAGE_WIDTH = 450
+const PAGE_WIDTH = 1200
 
 
 export const Carousel = ({ children }) => {
@@ -54,16 +54,16 @@ export const Carousel = ({ children }) => {
     return (
         <div className="main-container">
             <FaChevronLeft className="arrow" onClick={handleLeftArrowClick} />
+
             <div className="window">
-
                 <div className="all-pages-container"
-
                     style={{
                         transform: `translateX(${offset}px)`,
                     }}
                 >{pages}
                 </div>
             </div>
+
             <FaChevronRight className="arrow" onClick={handleRightArrowClick} />
         </div>
     )
