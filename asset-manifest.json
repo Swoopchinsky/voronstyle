@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/voronstyle/static/css/main.5216f95c.css",
-    "main.js": "/voronstyle/static/js/main.ae22b12b.js",
+    "main.css": "/voronstyle/static/css/main.b4f55366.css",
+    "main.js": "/voronstyle/static/js/main.d8768313.js",
+    "static/media/krest.jpg": "/voronstyle/static/media/krest.62eed0bcce6ea4f7ee31.jpg",
+    "static/media/paht.jpg": "/voronstyle/static/media/paht.370b073257d9f6eb1619.jpg",
     "static/media/fonNeva.jpg": "/voronstyle/static/media/fonNeva.b56ce14b81bd7cb3fde1.jpg",
+    "static/media/zaliv.jpg": "/voronstyle/static/media/zaliv.24eb616c6a34ce1cfa59.jpg",
     "index.html": "/voronstyle/index.html",
-    "main.5216f95c.css.map": "/voronstyle/static/css/main.5216f95c.css.map",
-    "main.ae22b12b.js.map": "/voronstyle/static/js/main.ae22b12b.js.map"
+    "main.b4f55366.css.map": "/voronstyle/static/css/main.b4f55366.css.map",
+    "main.d8768313.js.map": "/voronstyle/static/js/main.d8768313.js.map"
   },
   "entrypoints": [
-    "static/css/main.5216f95c.css",
-    "static/js/main.ae22b12b.js"
+    "static/css/main.b4f55366.css",
+    "static/js/main.d8768313.js"
   ]
 }
