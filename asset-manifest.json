@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/voronstyle/static/css/main.b4f55366.css",
-    "main.js": "/voronstyle/static/js/main.d8768313.js",
+    "main.css": "/voronstyle/static/css/main.c3c21a7d.css",
+    "main.js": "/voronstyle/static/js/main.bf5d1b48.js",
     "static/media/krest.jpg": "/voronstyle/static/media/krest.62eed0bcce6ea4f7ee31.jpg",
+    "static/media/sochi.jpg": "/voronstyle/static/media/sochi.105de9ed1470d823b879.jpg",
+    "static/media/ptennec.jpg": "/voronstyle/static/media/ptennec.da7e54915825026c306d.jpg",
+    "static/media/Spas.jpg": "/voronstyle/static/media/Spas.b5fe9c7d6452d21cf49c.jpg",
+    "static/media/Konstantin.jpg": "/voronstyle/static/media/Konstantin.903f424056fc70ba3f11.jpg",
+    "static/media/Kazansky.jpg": "/voronstyle/static/media/Kazansky.ff3ddc128dd430ab8e2c.jpg",
     "static/media/paht.jpg": "/voronstyle/static/media/paht.370b073257d9f6eb1619.jpg",
     "static/media/fonNeva.jpg": "/voronstyle/static/media/fonNeva.b56ce14b81bd7cb3fde1.jpg",
+    "static/media/zapisi.jpg": "/voronstyle/static/media/zapisi.38e838277231af7d2056.jpg",
     "static/media/zaliv.jpg": "/voronstyle/static/media/zaliv.24eb616c6a34ce1cfa59.jpg",
+    "static/media/Lodki.jpg": "/voronstyle/static/media/Lodki.388b5b53027e37b899b5.jpg",
     "index.html": "/voronstyle/index.html",
-    "main.b4f55366.css.map": "/voronstyle/static/css/main.b4f55366.css.map",
-    "main.d8768313.js.map": "/voronstyle/static/js/main.d8768313.js.map"
+    "main.c3c21a7d.css.map": "/voronstyle/static/css/main.c3c21a7d.css.map",
+    "main.bf5d1b48.js.map": "/voronstyle/static/js/main.bf5d1b48.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4f55366.css",
-    "static/js/main.d8768313.js"
+    "static/css/main.c3c21a7d.css",
+    "static/js/main.bf5d1b48.js"
   ]
 }
