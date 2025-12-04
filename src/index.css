@@ -88,6 +88,51 @@ header .fon::after {
     height: 2598px;
 }
 
+.item-4 {
+    background: url('./carousel/imgCarousel/Kazansky.jpg') no-repeat;
+    width: 1200px;
+    height: 2598px;
+}
+
+.item-5 {
+    background: url('./carousel/imgCarousel/Konstantin.jpg') no-repeat;
+    width: 1200px;
+    height: 2598px;
+
+}
+
+.item-6 {
+    background: url('./carousel/imgCarousel/sochi.jpg') no-repeat;
+    width: 1200px;
+    height: 2598px;
+}
+
+.item-7 {
+    background: url('./carousel/imgCarousel/Lodki.jpg') no-repeat;
+    width: 1200px;
+    height: 2598px;
+}
+
+.item-8 {
+    background: url('./carousel/imgCarousel/zapisi.jpg') no-repeat;
+    width: 1200px;
+    height: 2598px;
+}
+
+.item-9 {
+    background: url('./carousel/imgCarousel/ptennec.jpg') no-repeat;
+    width: 1200px;
+    height: 2598px;
+}
+
+.item-10 {
+    background: url('./carousel/imgCarousel/Spas.jpg') no-repeat;
+    width: 1200px;
+    height: 1700px;
+}
+
+
+
 footer {
     font-size: 44px;
     margin: 44px;
