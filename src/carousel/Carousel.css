@@ -1,13 +1,10 @@
 .main-container {
-
     margin-top: 140px;
+    margin-left: 40px;
     height: 1600px;
     width: 1325px;
-
     display: flex;
     align-items: center;
-
-    overflow: swiper;
 }
 
 .window {
@@ -19,9 +16,6 @@
 .all-pages-container {
     height: 100%;
     display: flex;
-
-    overflow: swiper;
-
     transition: translate;
     transition-property: transform;
     transition-duration: 530ms;
@@ -31,6 +25,6 @@
 
 .arrow {
     cursor: pointer;
-    font-size: 70px;
+    font-size: 80px;
     color: rgba(6, 70, 20, 0.772);
 }
