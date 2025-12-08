@@ -139,20 +139,61 @@ header .fon::after {
     justify-content: center;
     user-select: none;
 
-    width: 500px;
+
 }
 
 .cadr-1 {
     background-color: azure;
+    width: 1340px;
+    height: 892px;
 }
 
 .cadr-2 {
     background-color: rgb(36, 131, 131);
+    width: 1340px;
+    height: 892px;
 }
 
 .cadr-3 {
     background-color: rgb(2, 59, 59);
+    width: 1340px;
+    height: 892px;
 }
+
+.shoom {
+    font-size: 62px;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    background: radial-gradient(#2f752f, #e6f81af3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.krok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.krok_1 {
+    background-color: #2f752f;
+
+
+}
+
+.krok_2 {
+    background-color: #147114;
+
+}
+
+.krok_3 {
+    background-color: #0b540b;
+
+}
+
+
 
 
 

@@ -5,6 +5,7 @@ import App from './App';
 
 import './carousel/Carousel.css'
 import './cadr/Cadr.css'
+import './snimok/Snimok.css'
 
 
 

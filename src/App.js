@@ -3,6 +3,8 @@ import Footer from "./components/Footer";
 import Romch from "./components/Romch";
 import Slayder from "./components/Slayder";
 import Iris from "./components/Iris";
+import Shoom from "./components/Shoom";
+import Krok from "./components/Krok";
 
 
 
@@ -12,7 +14,10 @@ function App() {
       <Header />
       <Romch />
       <Slayder />
+      <Shoom />
       <Iris />
+      <Krok />
+
       <Footer />
 
 

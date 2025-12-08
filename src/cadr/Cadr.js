@@ -1,9 +1,9 @@
 import { useState, useEffect, Children, cloneElement } from 'react'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
-import './Cadr.css'
 
-const ANA_WIDTH = 500
+
+const ANA_WIDTH = 1340
 
 export const Cadr = ({ children }) => {
     const [ana, setAna] = useState([])

@@ -1,0 +1,26 @@
+.snimok-container {
+    width: 600px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.win-snimok {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.all-snimok-container {
+    height: 100%;
+    display: flex;
+}
+
+.snarrow {
+    cursor: pointer;
+    font-size: 80px;
+
+}
