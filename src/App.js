@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Romch from "./components/Romch";
 import Slayder from "./components/Slayder";
+import Iris from "./components/Iris";
 
 
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Romch />
       <Slayder />
+      <Iris />
       <Footer />
 
 
