@@ -1,11 +1,12 @@
 .snimok-container {
-    width: 600px;
-    height: 200px;
+    height: 892px;
+    width: 1340px;
+    margin-top: 40px;
+    margin-left: 40px;
 
     display: flex;
     align-items: center;
 
-    margin-top: 40px;
 }
 
 .win-snimok {
@@ -17,6 +18,11 @@
 .all-snimok-container {
     height: 100%;
     display: flex;
+
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 700ms;
+    transition-timing-function: ease-in-out;
 }
 
 .snarrow {

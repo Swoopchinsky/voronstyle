@@ -170,7 +170,7 @@ header .fon::after {
     -webkit-text-fill-color: transparent;
 }
 
-.krok {
+.kroks {
     display: flex;
     align-items: center;
     justify-content: center;
