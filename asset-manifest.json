@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/voronstyle/static/css/main.0c975487.css",
-    "main.js": "/voronstyle/static/js/main.daa20fc5.js",
+    "main.css": "/voronstyle/static/css/main.2adf5a76.css",
+    "main.js": "/voronstyle/static/js/main.bb5912b2.js",
     "static/media/krest.jpg": "/voronstyle/static/media/krest.727506b8f942b69de6f7.jpg",
     "static/media/sochi.jpg": "/voronstyle/static/media/sochi.105de9ed1470d823b879.jpg",
     "static/media/ptennec.jpg": "/voronstyle/static/media/ptennec.da7e54915825026c306d.jpg",
@@ -14,11 +14,11 @@
     "static/media/zaliv.jpg": "/voronstyle/static/media/zaliv.24eb616c6a34ce1cfa59.jpg",
     "static/media/Lodki.jpg": "/voronstyle/static/media/Lodki.388b5b53027e37b899b5.jpg",
     "index.html": "/voronstyle/index.html",
-    "main.0c975487.css.map": "/voronstyle/static/css/main.0c975487.css.map",
-    "main.daa20fc5.js.map": "/voronstyle/static/js/main.daa20fc5.js.map"
+    "main.2adf5a76.css.map": "/voronstyle/static/css/main.2adf5a76.css.map",
+    "main.bb5912b2.js.map": "/voronstyle/static/js/main.bb5912b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c975487.css",
-    "static/js/main.daa20fc5.js"
+    "static/css/main.2adf5a76.css",
+    "static/js/main.bb5912b2.js"
   ]
 }
