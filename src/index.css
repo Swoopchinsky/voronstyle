@@ -178,18 +178,19 @@ header .fon::after {
 }
 
 .krok_1 {
-    background-color: #2f752f;
-
-
+    background: radial-gradient(#16678af3, #874c09, #ecb5b5, #555);
 }
 
 .krok_2 {
-    background-color: #147114;
+    background: linear-gradient(#b5c506f3, #d8e828, #ceec38f1, #e5f06a, #f0ee5e90);
+
 
 }
 
 .krok_3 {
-    background-color: #0b540b;
+    background: radial-gradient(#dee58bf3, #62be62, #d29128, #07340a, #8da33d, #aa530c);
+
+
 
 }
 
