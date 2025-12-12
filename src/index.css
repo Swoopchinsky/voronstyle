@@ -143,21 +143,43 @@ header .fon::after {
 }
 
 .cadr-1 {
-    background-color: azure;
-    width: 1340px;
-    height: 892px;
+    background: url('./cadr/imgCadr/demon.jpg');
 }
 
 .cadr-2 {
-    background-color: rgb(36, 131, 131);
-    width: 1340px;
-    height: 892px;
+    background: url('./cadr/imgCadr/dvor.jpg');
 }
 
 .cadr-3 {
-    background-color: rgb(2, 59, 59);
-    width: 1340px;
-    height: 892px;
+    background: url('./cadr/imgCadr/gora.jpg');
+}
+
+.cadr-4 {
+    background: url('./cadr/imgCadr/pa.jpg');
+}
+
+.cadr-5 {
+    background: url('./cadr/imgCadr/potok.jpg');
+}
+
+.cadr-6 {
+    background: url('./cadr/imgCadr/ptica.jpg');
+}
+
+.cadr-7 {
+    background: url('./cadr/imgCadr/rabota.jpg');
+}
+
+.cadr-8 {
+    background: url('./cadr/imgCadr/rszo.jpg');
+}
+
+.cadr-9 {
+    background: url('./cadr/imgCadr/swarog.jpg');
+}
+
+.cadr-10 {
+    background: url('./cadr/imgCadr/vod.jpg');
 }
 
 .shoom {
@@ -183,15 +205,34 @@ header .fon::after {
 
 .krok_2 {
     background: linear-gradient(#b5c506f3, #d8e828, #ceec38f1, #e5f06a, #f0ee5e90);
-
-
 }
 
 .krok_3 {
     background: radial-gradient(#dee58bf3, #62be62, #d29128, #07340a, #8da33d, #aa530c);
+}
 
+.krok_4 {
+    background: radial-gradient(#b1e2f7f3, #d7f804b6, #ec75d76b, #f3ebeb, #772, #137613);
+}
 
+.krok_5 {
+    background: linear-gradient(#23f42356, #69ed7bda, #6bd27cf1, #73ce79, #5cb96af4, #3c9a50e1, #2a8b38, #186023f1, #133203, #010b03df);
+}
 
+.krok_6 {
+    background: radial-gradient(#ddf107f3, #71183f, #39d10f, #83e28a, #1d210d, #abe343);
+}
+
+.krok_7 {
+    background: radial-gradient(#000000f3, #d6e679, #64e054c6, #7da9be, #bad8e5f3, #41856b, #79d455, #f17d7ddd);
+}
+
+.krok_8 {
+    background: linear-gradient(#b30000d3, #e80e0ee7, #0509ede2, #0509edd3, #ffffffe4, #fff);
+}
+
+.krok_9 {
+    background: radial-gradient(#f0e8f0f3, #b498b7, #c594cf, #ce96ec, #73427d, #9f5bed, #9647dff3, #4e2b6dcc, #4d1658, #6c0f5c, #36063a, #d2b6f3);
 }
 
 

@@ -23,14 +23,10 @@ export const Snimok = ({ children }) => {
 
     const rightClick = () => {
         console.log('rightClick')
-
         setOffset((currentOffset) => {
-
             const newOffset = currentOffset - KROK_WIDTH
-
-            const maxOffset = -(KROK_WIDTH * (krok.length - 1))
-
-            console.log(newOffset, maxOffset)
+            const maxOffset = KROK_WIDTH * -((krok.length - 1))
+            console.log(newOffset)
             return Math.max(newOffset, maxOffset)
 
         })
