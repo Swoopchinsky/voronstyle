@@ -19,6 +19,9 @@ export default function Krok() {
             <div className='kroks krok_7'></div>
             <div className='kroks krok_8'></div>
             <div className='kroks krok_9'></div>
+
+            <div className='kroks krok_10'></div>
+            <div className='kroks krok_11'></div>
         </Snimok>
 
 
