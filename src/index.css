@@ -26,15 +26,16 @@ body {
     left: 250px;
     display: flex;
     align-items: center;
-    width: 60px;
+    width: 101px;
     padding: 20px 28px;
     background-color: #2f752f2f;
+    z-index: 1100;
 }
 
 .menu-button {
     margin-left: 10px;
-    width: 40px;
-    height: 40px;
+    width: 86px;
+    height: 86px;
     padding: 0;
     border: 0;
     border-radius: 50%;
@@ -44,9 +45,11 @@ body {
 .menu {
     left: 0px;
     position: absolute;
-    top: calc(100% + 5px);
+    top: calc(100% - 12px);
     right: 10px;
-    width: 220px;
+    width: 360px;
+    font-size: 74px;
+    color: linear-gradient (#2f752f #17b717);
     padding: 25px;
     background-color: #fff;
     border: 1px solid #2f752f;
@@ -55,6 +58,7 @@ body {
     transform: translateY(-10px);
     visibility: hidden;
     transition: 0.7s;
+    z-index: 1110;
 }
 
 .menu.active {
@@ -70,7 +74,7 @@ body {
     position: absolute;
     width: 1px;
     height: 20px;
-    right: 215px;
+    right: 316px;
     border: 10px solid transparent;
 }
 
