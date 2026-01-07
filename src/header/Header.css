@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+
+.pole1 {
+    width: 400px;
+    position: absolute;
+    background: linear-gradient(#f5f8cdf3, #b9f5b9);
+    margin-left: 386px;
+    margin-top: -130px;
+}
+
+header .pole1b1 {
+    font-size: 50px;
+}
+
+header .pole1b2 {
+    font-size: 50px;
+}
+
+header .pole1b3 {
+    font-size: 50px;
+}
+
+header .pole1b4 {
+    font-size: 50px;
+}
