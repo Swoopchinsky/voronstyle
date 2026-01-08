@@ -89,7 +89,6 @@ body {
 }
 
 header .mb1 {
-    font-size: 50px;
     font-size: 40px;
     padding: 7px;
     border-radius: 20px;
@@ -112,16 +111,27 @@ header .mb1.active {
 }
 
 header .mb2 {
-    font-size: 55px;
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
 }
 
-.mbut2 {
-    font-size: 50px;
+header .mb2:hover,
+header .mb2.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
-header .mb3 {
-    font-size: 55px;
-}
 
 .mbut3 {
     font-size: 50px;

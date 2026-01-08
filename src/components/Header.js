@@ -38,51 +38,51 @@ export default function Header() {
                             </li>
                             <li><button onClick={() => setMenuBut2(menuBut2 = !menuBut2)} className={`mb2 ${menuBut2 && 'active'}`} >Foto & Designs</button>
                                 {menuBut2 && (
-                                    <div className='mbut2'>
-                                        <button>Интерьеры</button> <br />
-                                        <button>Мастерская Живописи</button> <br />
-                                        <button>Союз Жудожников СПб</button> <br />
-                                        <button>Фото от Vornstyle</button> <br />
+                                    <div className='pole2'>
+                                        <button className='pole2b1'>Интерьеры</button> <br />
+                                        <button className='pole2b2'>Мастерская Живописи</button> <br />
+                                        <button className='pole2b3'>Союз Жудожников СПб</button> <br />
+                                        <button className='pole2b4'>Фото от Vornstyle</button> <br />
 
                                     </div>
                                 )}
                             </li>
                             <li><button onClick={() => setMenuBut3(menuBut3 = !menuBut3)} className={`mb3 ${menuBut3 && 'active'}`} >UX & UI</button>
                                 {menuBut3 && (
-                                    <div className='mbut3'>
-                                        <button>User Experience Designer</button> <br />
-                                        <button>User Interface</button> <br />
-                                        <button>button </button> <br />
-                                        <button>gradient </button> <br />
+                                    <div className='pole3'>
+                                        <button className='pole3b1'>User Experience Designer</button> <br />
+                                        <button className='pole3b2'>User Interface</button> <br />
+                                        <button className='pole3b3'>button </button> <br />
+                                        <button className='pole3b4'>gradient </button> <br />
                                     </div>
                                 )}
                             </li>
                             <li><button onClick={() => setMenuBut4(menuBut4 = !menuBut4)} className={`mb4 ${menuBut4 && 'active'}`} >Drawings</button>
                                 {menuBut4 && (
-                                    <div className='mbut4'>
-                                        <button>Graffiti</button> <br />
-                                        <button>Oil</button> <br />
-                                        <button>Sketch</button>
+                                    <div className='pole4'>
+                                        <button className='pole4b1'>Graffiti</button> <br />
+                                        <button className='pole4b2'>Oil</button> <br />
+                                        <button className='pole4b3'>Sketch</button>
                                     </div>
                                 )}
                             </li>
                             <li><button onClick={() => setMenuBut5(menuBut5 = !menuBut5)} className={`mb5 ${menuBut5 && 'active'}`} >Directions Promising</button>
                                 {menuBut5 && (
-                                    <div className='mbut5'>
-                                        <button>audit smart contract</button> <br />
-                                        <button>Solidity</button> <br />
-                                        <button>Web3</button> <br />
-                                        <button>NFT cart</button> <br />
+                                    <div className='pole5'>
+                                        <button className='pole5b1'>audit smart contract</button> <br />
+                                        <button className='pole5b2'>Solidity</button> <br />
+                                        <button className='pole5b3'>Web3</button> <br />
+                                        <button className='pole5b4'>NFT cart</button> <br />
                                     </div>
                                 )}
                             </li>
                             <li><button onClick={() => setMenuBut6(menuBut6 = !menuBut6)} className={`mb6 ${menuBut6 && 'active'}`} >about the project</button>
                                 {menuBut6 && (
-                                    <div className='mbut6'>
-                                        <button>React</button> <br />
-                                        <button>GitHub</button> <br />
-                                        <button>JavaScript</button> <br />
-                                        <button>Author</button> <br />
+                                    <div className='pole6'>
+                                        <button className='pole6b1'>React</button> <br />
+                                        <button className='pole6b2'>GitHub</button> <br />
+                                        <button className='pole6b3'>JavaScript</button> <br />
+                                        <button className='pole6b4'>Author</button> <br />
                                         <p>Igarjanch 8 921 593 63 24 SPb Карта Сбер привязана к номеру. Шлите Деньги на Удачу.</p>
                                     </div>
                                 )}

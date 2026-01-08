@@ -23,3 +23,208 @@ header .pole1b3 {
 header .pole1b4 {
     font-size: 50px;
 }
+
+.pole2 {
+    width: 400px;
+    position: absolute;
+    background: linear-gradient(#f5f8cdf3, #b9f5b9);
+    margin-left: 386px;
+    margin-top: -130px;
+}
+
+header .pole2b1 {
+    font-size: 50px;
+}
+
+header .pole2b2 {
+    font-size: 50px;
+}
+
+header .pole2b3 {
+    font-size: 50px;
+}
+
+header .pole2b4 {
+    font-size: 50px;
+}
+
+
+header .mb3 {
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .mb3:hover,
+header .mb3.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+.pole3 {
+    width: 400px;
+    position: absolute;
+    background: linear-gradient(#f5f8cdf3, #b9f5b9);
+    margin-left: 386px;
+    margin-top: -130px;
+}
+
+header .pole3b1 {
+    font-size: 50px;
+}
+
+header .pole3b2 {
+    font-size: 50px;
+}
+
+header .pole3b3 {
+    font-size: 50px;
+}
+
+header .pole3b4 {
+    font-size: 50px;
+}
+
+header .mb4 {
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .mb4:hover,
+header .mb4.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+.pole4 {
+    width: 400px;
+    position: absolute;
+    background: linear-gradient(#f5f8cdf3, #b9f5b9);
+    margin-left: 386px;
+    margin-top: -130px;
+}
+
+header .pole4b1 {
+    font-size: 50px;
+}
+
+header .pole4b2 {
+    font-size: 50px;
+}
+
+header .pole4b3 {
+    font-size: 50px;
+}
+
+header .mb5 {
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .mb5:hover,
+header .mb5.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+.pole5 {
+    width: 400px;
+    position: absolute;
+    background: linear-gradient(#f5f8cdf3, #b9f5b9);
+    margin-left: 386px;
+    margin-top: -130px;
+}
+
+header .pole5b1 {
+    font-size: 50px;
+}
+
+header .pole5b2 {
+    font-size: 50px;
+}
+
+header .pole5b3 {
+    font-size: 50px;
+}
+
+header .pole5b4 {
+    font-size: 50px;
+}
+
+header .mb6 {
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .mb6:hover,
+header .mb6.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
+.pole6 {
+    width: 400px;
+    position: absolute;
+    background: linear-gradient(#f5f8cdf3, #b9f5b9);
+    margin-left: 386px;
+    margin-top: -130px;
+}
+
+header .pole6b1 {
+    font-size: 50px;
+}
+
+header .pole6b2 {
+    font-size: 50px;
+}
+
+header .pole6b3 {
+    font-size: 50px;
+}
+
+header .pole6b4 {
+    font-size: 50px;
+}
