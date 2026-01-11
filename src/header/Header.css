@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
 
+
 .pole1 {
     width: 400px;
     position: absolute;
@@ -10,18 +11,91 @@
 
 header .pole1b1 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
 }
+
+header .pole1b1:hover,
+header .pole1b1.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
 
 header .pole1b2 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole1b2:hover,
+header .pole1b2.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole1b3 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole1b3:hover,
+header .pole1b3.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole1b4 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole1b4:hover,
+header .pole1b4.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 .pole2 {
@@ -34,23 +108,95 @@ header .pole1b4 {
 
 header .pole2b1 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole2b1:hover,
+header .pole2b1.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole2b2 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole2b2:hover,
+header .pole2b2.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole2b3 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole2b3:hover,
+header .pole2b3.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole2b4 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole2b4:hover,
+header .pole2b4.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 
 header .mb3 {
-    font-size: 40px;
+    font-size: 50px;
     padding: 7px;
     border-radius: 20px;
     margin-top: 10px;
@@ -81,22 +227,94 @@ header .mb3.active {
 
 header .pole3b1 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole3b1:hover,
+header .pole3b1.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole3b2 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole3b2:hover,
+header .pole3b2.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole3b3 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole3b3:hover,
+header .pole3b3.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole3b4 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole3b4:hover,
+header .pole3b4.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .mb4 {
-    font-size: 40px;
+    font-size: 50px;
     padding: 7px;
     border-radius: 20px;
     margin-top: 10px;
@@ -127,18 +345,72 @@ header .mb4.active {
 
 header .pole4b1 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole4b1:hover,
+header .pole4b1.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole4b2 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole4b2:hover,
+header .pole4b2.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole4b3 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole4b3:hover,
+header .pole4b3.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .mb5 {
-    font-size: 40px;
+    font-size: 50px;
     padding: 7px;
     border-radius: 20px;
     margin-top: 10px;
@@ -164,27 +436,99 @@ header .mb5.active {
     position: absolute;
     background: linear-gradient(#f5f8cdf3, #b9f5b9);
     margin-left: 386px;
-    margin-top: -130px;
+    margin-top: -186px;
 }
 
 header .pole5b1 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole5b1:hover,
+header .pole5b1.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole5b2 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole5b2:hover,
+header .pole5b2.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole5b3 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole5b3:hover,
+header .pole5b3.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole5b4 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole5b4:hover,
+header .pole5b4.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .mb6 {
-    font-size: 40px;
+    font-size: 50px;
     padding: 7px;
     border-radius: 20px;
     margin-top: 10px;
@@ -210,21 +554,97 @@ header .mb6.active {
     position: absolute;
     background: linear-gradient(#f5f8cdf3, #b9f5b9);
     margin-left: 386px;
-    margin-top: -130px;
+    margin-top: -150px;
 }
 
 header .pole6b1 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole6b1:hover,
+header .pole6b1.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole6b2 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole6b2:hover,
+header .pole6b2.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }
 
 header .pole6b3 {
     font-size: 50px;
 }
 
+header .pole6b3 {
+    font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole6b3:hover,
+header .pole6b3.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+}
+
 header .pole6b4 {
     font-size: 50px;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #dcf93784;
+    transition: color, transform 500ms ease;
+}
+
+header .pole6b4:hover,
+header .pole6b4.active {
+    color: #eef9a4f2;
+    background-color: #0c12068d;
+    transform: scale(1.13);
+    -webkit-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    -moz-box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
+    box-shadow: -5px 10px 10px 8px rgba(34, 60, 80, 0.26);
 }

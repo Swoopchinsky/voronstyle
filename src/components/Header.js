@@ -50,8 +50,8 @@ export default function Header() {
                             <li><button onClick={() => setMenuBut3(menuBut3 = !menuBut3)} className={`mb3 ${menuBut3 && 'active'}`} >UX & UI</button>
                                 {menuBut3 && (
                                     <div className='pole3'>
-                                        <button className='pole3b1'>User Experience Designer</button> <br />
                                         <button className='pole3b2'>User Interface</button> <br />
+                                        <button className='pole3b1'>User Experience Designer</button> <br />
                                         <button className='pole3b3'>button </button> <br />
                                         <button className='pole3b4'>gradient </button> <br />
                                     </div>
@@ -69,7 +69,7 @@ export default function Header() {
                             <li><button onClick={() => setMenuBut5(menuBut5 = !menuBut5)} className={`mb5 ${menuBut5 && 'active'}`} >Directions Promising</button>
                                 {menuBut5 && (
                                     <div className='pole5'>
-                                        <button className='pole5b1'>audit smart contract</button> <br />
+                                        <button className='pole5b1'>smart contract</button> <br />
                                         <button className='pole5b2'>Solidity</button> <br />
                                         <button className='pole5b3'>Web3</button> <br />
                                         <button className='pole5b4'>NFT cart</button> <br />
@@ -83,7 +83,7 @@ export default function Header() {
                                         <button className='pole6b2'>GitHub</button> <br />
                                         <button className='pole6b3'>JavaScript</button> <br />
                                         <button className='pole6b4'>Author</button> <br />
-                                        <p>Igarjanch 8 921 593 63 24 SPb Карта Сбер привязана к номеру. Шлите Деньги на Удачу.</p>
+
                                     </div>
                                 )}
                             </li>
