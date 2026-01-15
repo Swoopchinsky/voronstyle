@@ -11,6 +11,11 @@ export default function Header() {
     let [menuBut5, setMenuBut5] = useState(false)
     let [menuBut6, setMenuBut6] = useState(false)
 
+    let [btst1, setBtSt1] = useState(false)
+    const toggleModal = () => {
+        setBtSt1(!btst1);
+    }
+
     return (
         <header>
             <div>
@@ -24,14 +29,30 @@ export default function Header() {
                     <nav className={`menu ${isOpen ? "active" : ""}`}>
                         <ul className='menu__list'>
                             <li>
-                                <button onClick={() => setMenuBut1(menuBut1 = !menuBut1)} className={`mb1 ${menuBut1 && 'active'}`}>Web Atcard</button>
+                                <button onClick={() => setMenuBut1(menuBut1 = !menuBut1)} className={`mb1 ${menuBut1 && 'active'}`}>Web Article card</button>
                                 {menuBut1 && (
 
                                     <div className='pole1'>
-                                        <button className='pole1b1'>Вэб Аткрытки</button> <br />
+                                        <button onClick={() => setBtSt1(btst1 = !btst1)} className={`pole1b1 ${btst1 && 'active'}`}>Article card</button> <br />
+                                        {btst1 && (
+                                            <div className='st1'>
+                                                <p className='st1zgl'>Article card</p>
+                                                <button onClick={toggleModal} className='btnst1-close'>close</button>
+
+                                                <div className='contentst1'>Оставь свой информационный след. <br />
+                                                    Какая Твоя Супер Сила? <br />
+                                                    Безграничные возможности Современных Технологий
+                                                    позваляют безпрепятственно взаимодействовать и создавать не бывалые ранее
+                                                    структуры архитектурных моделий обработки информации. Изучение и создание простейших
+                                                    Вэб приложений, Индивидуальный Стиль, Оформление Юзер Интерфейсов  и реализация элементарных Функций.
+                                                    Неоспаримое Превосходство Модульных подходов Разработки, Тестирование в реальном времени и Поиск Оптимальнейшего Решения.
+                                                    Кодь Всегда
+                                                </div>
+                                            </div>
+                                        )}
                                         <button className='pole1b2'>Hello Web</button> <br />
                                         <button className='pole1b3'>Web business card</button> <br />
-                                        <button className='pole1b4'>communication format</button> <br />
+                                        <button className='pole1b4'>communication form</button> <br />
                                     </div>
 
                                 )}
