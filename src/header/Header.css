@@ -651,7 +651,7 @@ header .pole6b4.active {
 
 header .st1 {
     width: 1400px;
-    height: 900px;
+    height: 1300px;
     position: absolute;
     background: linear-gradient(#f5f8cdf3, #b9f5b9);
     font-size: 50px;
@@ -660,12 +660,9 @@ header .st1 {
 }
 
 header .st1zgl {
-    font-size: 60px;
-    align-items: center;
     font-size: 62px;
-    margin-left: 300px;
     margin-top: 10px;
-    text-align: center;
+    margin-left: 500px;
     position: absolute;
     background: radial-gradient(#162416, #edf779f3);
     background-clip: text;
