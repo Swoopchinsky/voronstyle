@@ -57,10 +57,10 @@ export default function Header() {
                                                 <div className='contentst1'>Оставь свой информационный след. <br />
                                                     Какая Твоя Супер Сила? <br />
                                                     Безграничные возможности Современных Технологий
-                                                    позваляют безпрепятственно взаимодействовать и создавать не бывалые ранее
-                                                    структуры архитектурных моделий обработки информации. Изучение и создание простейших
+                                                    позволяют беспрепятственно взаимодействовать и создавать не бывалые ранее
+                                                    структуры архитектурных моделей обработки информации. Изучение и создание простейших
                                                     Вэб приложений, Индивидуальный Стиль, Оформление Юзер Интерфейсов  и реализация элементарных Функций.
-                                                    Неоспаримое Превосходство Модульных подходов Разработки, Тестирование в реальном времени и Поиск Оптимальнейшего Решения.
+                                                    Неоспоримое Превосходство Модульных подходов Разработки, Тестирование в реальном времени и Поиск Оптимальнейшего Решения.
                                                     Кодь Всегда
                                                 </div>
                                             </div>
@@ -71,14 +71,14 @@ export default function Header() {
                                                 <p className='st2zgl'>Hello Web</p>
                                                 <button onClick={closest2} className='btnst2-close'>close</button>
 
-                                                <div className='contentst2'>Камуникация вне социальных сетей <br />
-                                                    Увлекательный и разнообразный процесс развития Web индудустрии неумольмо быстро
-                                                    ведет нас в направление обсолютно новой реальности. При таких условиях игнорировать
-                                                    изучение языков програмирования становится новозможным. Hello Web предлагает максимально
+                                                <div className='contentst2'>Коммуникация вне социальных сетей <br />
+                                                    Увлекательный и разнообразный процесс развития Web индудустрии неумолимо быстро
+                                                    ведет нас в направление абсолютно новой реальности. При таких условиях игнорировать
+                                                    изучение языков программирования становится невозможным. Hello Web предлагает максимально
                                                     не сложный курс освоения элементарных дисциплин. <br />
                                                     Установить Visual Studio Code
                                                     Пакетный менеджер Pip для Python. pip install,
-                                                    Библиотека PyGame продемонтрирует основы ООП. Библиотека Matplotlib и Pandas. <br />
+                                                    Библиотека PyGame продемонстрирует основы ООП. Библиотека Matplotlib и Pandas. <br />
                                                     npm JavaScript Bable.JS React.JS GitHub Pages
                                                 </div>
 
@@ -92,27 +92,27 @@ export default function Header() {
                                                 <p className='st3zgl'>optimal choice</p>
                                                 <button onClick={closest3} className='btnst3-close'>close</button>
 
-                                                <div className='contentst3'>JSX JavaScript XML - это расширение синтаксиса JavaScrpt<br />
-                                                    Которое позволяет писать HTML-подобную разметку рямо внутри JS-файлов, смешивая логики и структуры UI в одном месте.
-                                                    JSX язык шаблонов, наделенной силой JavaScript. React исходит из ринципа, что логика рендеринга непрерывно связана с прочей логикой
-                                                    UI: оброботка событий, изменение состояний во времени, подготовка данных к отображению.
+                                                <div className='contentst3'>JSX JavaScript XML - это расширение синтаксиса JavaScript<br />
+                                                    Которое позволяет писать HTML-подобную разметку прямо внутри JS-файлов, смешивая логики и структуры UI в одном месте.
+                                                    JSX язык шаблонов, наделенной силой JavaScript. React исходит из принципа, что логика рендеринга непрерывно связана с прочей логикой
+                                                    UI: обработка событий, изменение состояний во времени, подготовка данных к отображению.
 
-                                                    React разделяет ответственность с помощью слабо связанных единиц, называемых Компоненты<br />
-                                                    При использовании TypeScript фаилы имеют расширение .tsx
+                                                    React разделяет ответственность с помощью слабо связанных единиц, называемых Компонентами.
+                                                    При использовании TypeScript файлы имеют расширение .tsx
                                                 </div>
 
                                             </div>
                                         )}
-                                        <button onClick={() => setBtnSt4(btnst4 = !btnst4)} className={`pole1b4 ${btnst4 && 'active'}`}>nodes API</button> <br />
+                                        <button onClick={() => setBtnSt4(btnst4 = !btnst4)} className={`pole1b4 ${btnst4 && 'active'}`}>API</button> <br />
                                         {btnst4 && (
                                             <div className='st4'>
                                                 <p className='st4zgl'>Application Programminng Interface</p>
                                                 <button onClick={closest4} className='btnst4-close'>close</button>
 
-                                                <div className='contentst4'>Правил и Протоколов, который позволяет разным программным приложениям обмениваться данными и взаимодействовать,
+                                                <div className='contentst4'>Правила и Протоколы, который позволяет разным программным приложениям обмениваться данными и взаимодействовать,
                                                     API - контракт, который предоставляет программа.
                                                     Application programming interface - интерфейс программирования приложения. Описание способов взаимодействия
-                                                    компютерных программ. Применяются встроенные fetch или библиотеки Axios.<br />
+                                                    компъютерных программ. Применяются встроенные fetch или библиотеки Axios.<br />
                                                     React-компоненты управляют состоянием и жизненным циклом при взаимодействии с API, используя хуки
                                                     (useEffec, useState) или методы (componentDidMount) для выполнения запросов и рендеринга данных.
                                                     <br />
@@ -155,7 +155,7 @@ export default function Header() {
                                     </div>
                                 )}
                             </li>
-                            <li><button onClick={() => setMenuBut5(menuBut5 = !menuBut5)} className={`mb5 ${menuBut5 && 'active'}`} >priority</button>
+                            <li><button onClick={() => setMenuBut5(menuBut5 = !menuBut5)} className={`mb5 ${menuBut5 && 'active'}`} >Future</button>
                                 {menuBut5 && (
                                     <div className='pole5'>
                                         <button className='pole5b1'>smart contract</button> <br />
@@ -165,7 +165,7 @@ export default function Header() {
                                     </div>
                                 )}
                             </li>
-                            <li><button onClick={() => setMenuBut6(menuBut6 = !menuBut6)} className={`mb6 ${menuBut6 && 'active'}`} >about the project</button>
+                            <li><button onClick={() => setMenuBut6(menuBut6 = !menuBut6)} className={`mb6 ${menuBut6 && 'active'}`} >project</button>
                                 {menuBut6 && (
                                     <div className='pole6'>
                                         <button className='pole6b1'>React</button> <br />
