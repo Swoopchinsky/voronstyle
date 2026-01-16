@@ -91,7 +91,7 @@ body {
 }
 
 header .mb1 {
-    font-size: 40px;
+    font-size: 50px;
     padding: 7px;
     border-radius: 20px;
     margin-top: 40px;
@@ -113,7 +113,7 @@ header .mb1.active {
 }
 
 header .mb2 {
-    font-size: 40px;
+    font-size: 52px;
     padding: 7px;
     border-radius: 20px;
     margin-top: 10px;
