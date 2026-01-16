@@ -16,6 +16,11 @@ export default function Header() {
         setBtSt1(!btst1);
     }
 
+    let [btnst2, setBtnSt2] = useState(false)
+    const closest2 = () => {
+        setBtnSt2(!btnst2)
+    }
+
     return (
         <header>
             <div>
@@ -50,7 +55,27 @@ export default function Header() {
                                                 </div>
                                             </div>
                                         )}
-                                        <button className='pole1b2'>Hello Web</button> <br />
+                                        <button onClick={() => setBtnSt2(btnst2 = !btnst2)} className={`pole1b2 ${btnst2 && 'active'}`}>Hello Web</button> <br />
+                                        {btnst2 && (
+                                            <div className='st2'>
+                                                <p className='st2zgl'>Hello Web</p>
+                                                <button onClick={closest2} className='btnst2-close'>close</button>
+
+                                                <div className='contentst2'>Камуникация вне социальных сетей <br />
+                                                    Увлекательный и разнообразный процесс развития Web индудустрии неумольмо быстро
+                                                    ведет нас в направление обсолютно новой реальности. При таких условиях игнорировать
+                                                    изучение языков програмирования становится новозможным. Hello Web предлагает максимально
+                                                    не сложный курс освоения элементарных дисциплин. <br />
+                                                    Установить Visual Studio Code
+                                                    Пакетный менеджер Pip для Python. pip install,
+                                                    Библиотека PyGame продемонтрирует основы ООП. Библиотека Matplotlib и Pandas. <br />
+                                                    JavaScript Bable.JS React.JS GitHub Pages
+                                                </div>
+
+                                            </div>
+                                        )}
+
+
                                         <button className='pole1b3'>Web business card</button> <br />
                                         <button className='pole1b4'>communication form</button> <br />
                                     </div>
