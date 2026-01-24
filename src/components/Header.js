@@ -31,6 +31,49 @@ export default function Header() {
         setBtnSt4(!btnst4)
     }
 
+    let [btnst5, setBtnst5] = useState(false)
+    const closest5 = () => {
+        setBtnst5(!btnst5)
+    }
+
+    let [btnst6, setBtnst6] = useState(false)
+    const closest6 = () => {
+        setBtnst6(!btnst6)
+    }
+
+    let [btnst7, setBtnst7] = useState(false)
+    const closest7 = () => {
+        setBtnst7(!btnst7)
+    }
+
+    let [btnst8, setBtnst8] = useState(false)
+    const closest8 = () => {
+        setBtnst8(!btnst8)
+    }
+
+    let [btnst9, setBtnst9] = useState(false)
+    const closest9 = () => {
+        setBtnst9(!btnst9)
+    }
+
+    let [btnst10, setBtnst10] = useState(false)
+    const closest10 = () => {
+        setBtnst10(!btnst10)
+    }
+
+    let [btnst11, setBtnst11] = useState(false)
+    const closest11 = () => {
+        setBtnst11(!btnst11)
+    }
+
+    let [btnst12, setBtnst12] = useState(false)
+    const closest12 = () => {
+        setBtnst12(!btnst12)
+    }
+
+
+
+
     return (
         <header>
             <div>
@@ -109,7 +152,7 @@ export default function Header() {
                                                 <p className='st4zgl'>Application Programminng Interface</p>
                                                 <button onClick={closest4} className='btnst4-close'>close</button>
 
-                                                <div className='contentst4'>Правила и Протоколы, который позволяет разным программным приложениям обмениваться данными и взаимодействовать,
+                                                <div className='contentst4'>Правила и Протоколы, которые позволяют разным программным приложениям обмениваться данными и взаимодействовать,
                                                     API - контракт, который предоставляет программа.
                                                     Application programming interface - интерфейс программирования приложения. Описание способов взаимодействия
                                                     компъютерных программ. Применяются встроенные fetch или библиотеки Axios.<br />
@@ -125,13 +168,86 @@ export default function Header() {
 
                                 )}
                             </li>
-                            <li><button onClick={() => setMenuBut2(menuBut2 = !menuBut2)} className={`mb2 ${menuBut2 && 'active'}`} >Foto Designs</button>
+                            <li><button onClick={() => setMenuBut2(menuBut2 = !menuBut2)} className={`mb2 ${menuBut2 && 'active'}`} >Foto Design</button>
                                 {menuBut2 && (
                                     <div className='pole2'>
-                                        <button className='pole2b1'>Интерьеры</button> <br />
-                                        <button className='pole2b2'>Мастерская Живописи</button> <br />
-                                        <button className='pole2b3'>Союз Жудожников СПб</button> <br />
-                                        <button className='pole2b4'>Фото от Vornstyle</button> <br />
+                                        <button onClick={() => setBtnst5(btnst5 = !btnst5)} className={`pole2b1 ${btnst5 && 'active'}`}>Interior</button> <br />
+                                        {btnst5 && (
+                                            <div className='st5'>
+                                                <p className='st5zgl'>Interior</p>
+                                                <button onClick={closest5} className='btnst5-close'>close</button>
+
+                                                <div className='contentst5'>Сотрудничество с Талантливым Дизайнерам и Проектировщиком. Классическое представление
+                                                    современных стилей оформления помещений. Неоклассицизм. Оптимизация пространства и комфорт.
+                                                    <br />
+                                                    Создание технической документации и сопровождения реализации проекта. Предоставления множества вариантов трехмерных моделей.
+                                                    Работа новыми материалами и методами воплощения эксклюзивных сред обитания.
+                                                    <br />
+                                                    Огромный опты и значительное количество реализованных проектов, от дизайнерских кухонь, до загородных домов.
+                                                    Создадим Ваш Уютный Уголок.
+                                                </div>
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst6(btnst6 = !btnst6)} className={`pole2b2 ${btnst6 && 'active'}`}>ArtCentr</button> <br />
+                                        {btnst6 && (
+                                            <div className='st6'>
+                                                <p className='st6zgl'>ArtCentr</p>
+                                                <button onClick={closest6} className='btnst6-close'>close</button>
+
+                                                <div className='contentst6'>Мастер классы по искусству живописи маслом, подготовка к вступлению в Художественные ВУЗы.
+                                                    Погружение в творческую атмосферу создания собственных Шедевров.
+                                                    <br />
+                                                    Академический подход к написанию работ и создания художественного портфолио в кротчайшие сроки.
+                                                    Основная цель передать опыт и развить талант каждого участника проекта.
+                                                    Индивидуальный подход и мотивация двигаться.
+                                                    <br />
+                                                    Прокачав свой уровень Вы сможете реализовывать свои Картины, устраивать выставки и веб галереи.
+                                                    Реализуй Свой Потенциал. Готовая картина после первого занятия.
+                                                    Средство отвлечься от забот и получить приятный опыт.
+
+                                                </div>
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst7(btnst7 = !btnst7)} className={`pole2b3 ${btnst7 && 'active'}`}>UnionOfArtists</button> <br />
+                                        {btnst7 && (
+                                            <div className='st7'>
+                                                <p className='st7zgl'>UnionOfArtists</p>
+                                                <button onClick={closest7} className='btnst7-close'>close</button>
+
+                                                <div className='contentst7'>
+                                                    Экскурсии в Кузницу Академии Художественной Ковки к Величайшему Мастеру обработки металла.
+                                                    Сохраняя традиции классической школы.
+                                                    Обучающая лекция о физико-химических свойствах различных сплавов и их взаимодействии между собой.
+                                                    <br />
+                                                    Эксклюзивная возможность заглянуть в огненную колыбель кузнечного дела.
+                                                    Прикоснуться к пламени и узнать секреты древнейшего ремесла.
+                                                    <br />
+                                                    Разожжём горн и познакомимся с магическим процессом преображения безликого куска железа
+                                                    в застывшую симфонию формы и пропорций.
+
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst8(btnst8 = !btnst8)} className={`pole2b4 ${btnst8 && 'active'}`}>VoronStyle</button> <br />
+                                        {btnst8 && (
+                                            <div className='st8'>
+                                                <p className='st8zgl'>VoronStyle</p>
+                                                <button onClick={closest8} className='btnst8-close'>close</button>
+
+                                                <div className='contentst8'>
+                                                    Фотосессии на выезде. Побережье Кронштадта, Выборг, затерянные миры Ленинградской области.
+                                                    0.618 Идеальный стандарт пропорций на Ваших фотографиях.
+                                                    <br />
+                                                    Реализация смелых идей и творческий подход к процессу создания идеальной фотографии. Работа со светом и декорациями.
+                                                    Композиция портретов с последующей обработкой современными программами.
+                                                    <br />
+                                                    Разожжём горн и познакомимся с магическим процессом преображения безликого куска железа
+                                                    в застывшую симфонию формы и пропорций. Добродушная обстановка во время творческого процесса.
+
+                                                </div>
+                                            </div>
+                                        )}
 
                                     </div>
                                 )}
@@ -139,10 +255,93 @@ export default function Header() {
                             <li><button onClick={() => setMenuBut3(menuBut3 = !menuBut3)} className={`mb3 ${menuBut3 && 'active'}`} >UX & UI</button>
                                 {menuBut3 && (
                                     <div className='pole3'>
-                                        <button className='pole3b2'>User Interface</button> <br />
-                                        <button className='pole3b1'>User Experience Designer</button> <br />
-                                        <button className='pole3b3'>button </button> <br />
-                                        <button className='pole3b4'>gradient </button> <br />
+                                        <button onClick={() => setBtnst9(btnst9 = !btnst9)} className={`pole3b1 ${btnst9 && 'active'}`}>UX</button> <br />
+                                        {btnst9 && (
+                                            <div className='st9'>
+                                                <p className='st9zgl'>User Experience</p>
+                                                <button onClick={closest9} className='btnst9-close'>close</button>
+
+                                                <div className='contentst9'>
+                                                    Пользовательский опыт, совокупность всех ощущений и впечатлений человека при взаимодействии
+                                                    с продуктом, системой или услугой. Эмоции человека.
+                                                    <br />
+                                                    UX Design процесс создания такого продукта, чтобы он был максимально удобным, интуитивно понятным,
+                                                    функциональным и приносил удовольствие пользователю. UX дизайнер работает над логикой, структурой, навигацией.
+                                                    <br />
+                                                    Основные задачи UX дизайнера: Исследование потребностей и проблем аудитории.
+                                                    Проектирование информационной архитектуры и сценариев использования.
+                                                    Создание прототипов и Тестирование. Оптимизация.
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst10(btnst10 = !btnst10)} className={`pole3b2 ${btnst10 && 'active'}`}>UI</ button> <br />
+                                        {btnst10 && (
+                                            <div className='st10'>
+                                                <p className='st10zgl'>User Intrface</p>
+                                                <button onClick={closest10} className='btnst10-close'>close</button>
+
+                                                <div className='contentst10'>
+                                                    Визуальная и интерактивная часть продукта (сайта, приложения, программы),
+                                                    с которой взаимодействует человек: Кнопка, меню, шрифт, цвет и  иконки;
+                                                    UI отвечает за то, как продукт выглядит и ощущается.
+                                                    <br />
+                                                    Ключевые аспекты UI: Визуальные элементы-цвета, шрифты, кнопки, иконки, изображения, анимация.
+                                                    Компоненты: Меню, формы ввода, списки, вкладки.
+                                                    Цель: Создание эстетически приятного и привлекательного внешнего вида,
+                                                    который вызывает доверие у пользователя. Отличие от UX: UI - визуальная составляющая продукта,
+                                                    в то время как UX - описывает логику и структуру.
+
+                                                    <br />
+
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst11(btnst11 = !btnst11)} className={`pole3b3 ${btnst11 && 'active'}`}>Button </button> <br />
+                                        {btnst11 && (
+                                            <div className='st11'>
+                                                <p className='st11zgl'>Button</p>
+                                                <button onClick={closest11} className='btnst11-close'>close</button>
+
+                                                <div className='contentst11'>
+                                                    Элемент интерфейса или физическое устройство, при нажатии на которое выполняется заданное действие.
+                                                    В веб-разработке тег button используется для создания интерактивных элементов, которые могут содержать текст,
+                                                    изображение и стили. Основные типы: submit (отправка), reset (сброс). Интерактивные компоненты в приложениях
+                                                    (диалоги, панели инструментов)
+
+                                                    Множество возможных разновидностей сложных кнопок бесконечно. Могут быть фиксируемыми,
+                                                    реагировать на быстрые клики,
+                                                    включать многофазные счётные триггеры и более сложные устройства с большим количеством состояний.
+
+                                                    <br />
+
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst12(btnst12 = !btnst12)} className={`pole3b4 ${btnst12 && 'active'}`}>Gradient </button> <br />
+                                        {btnst12 && (
+                                            <div className='st12'>
+                                                <p className='st12zgl'>Gradient</p>
+                                                <button onClick={closest12} className='btnst12-close'>close</button>
+
+                                                <div className='contentst12'>
+                                                    Вид заливки в компьютерной графике, которая по заданным параметрам цвета
+                                                    в ключевых точках рассчитывает промежуточные цвета остальных точек.
+                                                    При этом создаются плавные переходы. Обычно в градиенте можно использовать
+                                                    более двух цветов и дополнительно указывать настройки прозрачности и смещения границы цветов.
+                                                    <br />
+                                                    Основные виды градиентов: Линейный - ключевые точки располагаются на одной прямой.
+                                                    Круговой - относительно первой ключевой точки строятся концентрически окружности.
+                                                    Угловой - ключевые точки располагаются по кругу. Отражённый - похож на линейный. Ромбовидный.
+                                                    <br />
+
+
+                                                </div>
+
+                                            </div>
+                                        )}
                                     </div>
                                 )}
                             </li>
