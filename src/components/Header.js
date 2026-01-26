@@ -69,7 +69,48 @@ export default function Header() {
     let [btnst12, setBtnst12] = useState(false)
     const closest12 = () => {
         setBtnst12(!btnst12)
+
     }
+
+    let [btnst13, setBtnst13] = useState(false)
+    const closest13 = () => {
+        setBtnst13(!btnst13)
+    }
+
+    let [btnst14, setBtnst14] = useState(false)
+    const closest14 = () => {
+        setBtnst14(!btnst14)
+
+    }
+
+    let [btnst15, setBtnst15] = useState(false)
+    const closest15 = () => {
+        setBtnst15(!btnst15)
+    }
+
+    let [btnst16, setBtnst16] = useState(false)
+    const closest16 = () => {
+        setBtnst16(!btnst16)
+    }
+
+    let [btnst17, setBtnst17] = useState(false)
+    const closest17 = () => {
+        setBtnst17(!btnst17)
+    }
+
+    let [btnst18, setBtnst18] = useState(false)
+    const closest18 = () => {
+        setBtnst18(!btnst18)
+    }
+
+    let [btnst19, setBtnst19] = useState(false)
+    const closest19 = () => {
+        setBtnst19(!btnst19)
+    }
+
+
+
+
 
 
 
@@ -239,11 +280,13 @@ export default function Header() {
                                                     Фотосессии на выезде. Побережье Кронштадта, Выборг, затерянные миры Ленинградской области.
                                                     0.618 Идеальный стандарт пропорций на Ваших фотографиях.
                                                     <br />
-                                                    Реализация смелых идей и творческий подход к процессу создания идеальной фотографии. Работа со светом и декорациями.
-                                                    Композиция портретов с последующей обработкой современными программами.
-                                                    <br />
-                                                    Разожжём горн и познакомимся с магическим процессом преображения безликого куска железа
-                                                    в застывшую симфонию формы и пропорций. Добродушная обстановка во время творческого процесса.
+                                                    Реализация смелых идей и творческий подход к процессу создания идеальной фотографии. Работа светом и декорациями.
+                                                    Композиция портретов при последующей обработке современными программами.
+
+                                                    Классическая аппаратура, широкий спектр объективов. Многолетний опыт работы с фотографией.
+                                                    Каноничный подход к созданию идеальных снимков. Экспертные методы подготовки съёмок позволяют
+                                                    добиться результата в кротчайшие сроки.
+
 
                                                 </div>
                                             </div>
@@ -345,22 +388,159 @@ export default function Header() {
                                     </div>
                                 )}
                             </li>
-                            <li><button onClick={() => setMenuBut4(menuBut4 = !menuBut4)} className={`mb4 ${menuBut4 && 'active'}`} >drawings</button>
+                            <li><button onClick={() => setMenuBut4(menuBut4 = !menuBut4)} className={`mb4 ${menuBut4 && 'active'}`} >Drawings</button>
                                 {menuBut4 && (
                                     <div className='pole4'>
-                                        <button className='pole4b1'>Graffiti</button> <br />
-                                        <button className='pole4b2'>Oil</button> <br />
-                                        <button className='pole4b3'>Sketch</button>
+                                        <button onClick={() => setBtnst13(btnst13 = !btnst13)} className={`pole4b1 ${btnst13 && 'active'}`}>Graffiti</button> <br />
+                                        {btnst13 && (
+                                            <div className='st13'>
+                                                <p className='st13zgl'>Graffiti </p>
+                                                <button onClick={closest13} className='btnst13-close'>close</button>
+
+                                                <div className='contentst13'>
+                                                    Изображение или надписи нарисованные краской или ченилами на стенах
+                                                    и других поверхностях. Считается, что граффити тесно связанно
+                                                    с hip-hop культурой и рисунков в Нью-Йорским метрополитеном.
+                                                    <br />
+                                                    Сегодня это вид уличного исскусства, форма художественного самоваражения. Произведения,
+                                                    создаваемые граффити-художниками стали самостоятельным жанром, неотъемлемая часть культуры
+                                                    и городского образа. В большинстве стран мира нанесение граффити на чью-либо собственность
+                                                    без разрешения считается вандализмом. Натоящее искусство.
+
+                                                    <br />
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst14(btnst14 = !btnst14)} className={`pole4b2 ${btnst14 && 'active'}`}>Oil & canvas</button> <br />
+                                        {btnst14 && (
+                                            <div className='st14'>
+                                                <p className='st14zgl'>Sketch</p>
+                                                <button onClick={closest14} className='btnst14-close'>close</button>
+
+                                                <div className='contentst14'>
+                                                    Широкое применение в Европе масляная живопись получила в начале XV века благодаря искусству
+                                                    нидерландского живописца Яна ван Эйка. Краски смешиваются на палитре кистью или мастихином.
+                                                    Не следует смешивать более трёх пегментов сразу - к оттенку следует идти кратчайшим путем.
+                                                    <br />
+                                                    Палитрой может служить деревянная дощечка, вощенная бумага, керамическая плитка.
+                                                    Чтобы разбавить краску или сполоснуть кисти, используют скипидар или любой другой растворитель.
+                                                    Сильно разбавлять краску нельзя, так как она может не прилипнуть к предыдущему слою.
+                                                    Для придания блеска к ним подмешиваются специальные лаки и смолы.
+                                                    <br />
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst15(btnst15 = !btnst15)} className={`pole4b3 ${btnst15 && 'active'}`}>Sketch</button>
+                                        {btnst15 && (
+                                            <div className='st15'>
+                                                <p className='st15zgl'>Oil & canvas</p>
+                                                <button onClick={closest15} className='btnst15-close'>close</button>
+
+                                                <div className='contentst15'>
+                                                    Скетч, от английского sketch - набросок. Быстрый рисунок передающий ключевую идею,
+                                                    композицию или настроение без тщательной детализации.
+                                                    Скетчинг используется для визуализации мыслей, в рисовании,
+                                                    travel, fashion, промышленности. Техника: Отличается высокой скоростью использования,
+                                                    свободной линией и стилизацией. Цели:
+                                                    Быстро зафиксировать идею, сделать зарисовку с натуры или создать основу для будущей работы.
+                                                    Сферы: Художественный скетчинг. Зарисовка людей, архитектуры, интерьеров. Граффити:
+                                                    Небольшой предварительный эскиз. Дизайн (Sketch app):
+                                                    Программа для прототипирования.
+                                                    <br />
+
+
+                                                </div>
+
+                                            </div>
+                                        )}
                                     </div>
                                 )}
                             </li>
                             <li><button onClick={() => setMenuBut5(menuBut5 = !menuBut5)} className={`mb5 ${menuBut5 && 'active'}`} >Future</button>
                                 {menuBut5 && (
                                     <div className='pole5'>
-                                        <button className='pole5b1'>smart contract</button> <br />
-                                        <button className='pole5b2'>Solidity</button> <br />
-                                        <button className='pole5b3'>Web3</button> <br />
-                                        <button className='pole5b4'>NFT cart</button> <br />
+                                        <button onClick={() => setBtnst16(btnst16 = !btnst16)} className={`pole5b1 ${btnst16 && 'active'}`}>Smart Contract</button> <br />
+                                        {btnst16 && (
+                                            <div className='st16'>
+                                                <p className='st16zgl'>Smart Contract</p>
+                                                <button onClick={closest16} className='btnst16-close'>close</button>
+
+                                                <div className='contentst16'>
+                                                    Смарт-контракты: Цифровые протоколы(код), работающие на блокчейне,
+                                                    которые автоматически исполняют условия договора при выполнении заранее заданных условий <br />
+                                                    (if-else)(если-то).
+                                                    Они исключают посредников, обеспечивая прозрачность и необратимость сделок. Автоматическое использование:
+                                                    Программа сама переводит активы при наступлении условий, устраняя необходимость в доверии между сторонами.
+                                                    Работа на блокчейне: Код децентрализован, неизменяем и прозрачен, что минимизирует риски мошенничества.
+                                                    Точность (детерминизм):
+                                                    Код исключает двусмысленность.
+
+                                                    <br />
+
+
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst17(btnst17 = !btnst17)} className={`pole5b2 ${btnst17 && 'active'}`}>Solidity</button> <br />
+                                        {btnst17 && (
+                                            <div className='st17'>
+                                                <p className='st17zgl'>Solidity</p>
+                                                <button onClick={closest17} className='btnst17-close'>close</button>
+
+                                                <div className='contentst17'>
+                                                    Объектно-ориентированный, статически типизированный язык программирования,
+                                                    созданный специально для написания смарт-контрактов, которые выполняются в блокчейне Ethereum,
+                                                    компилируясь в байт-код для Виртуальной машины Ethereum(EVM).
+                                                    Сиснтаксис похож на JavaScript, Python, C++. Позволяет создавать децентрализованные приложения (dApps),
+                                                    токены (ERC-20, ERC-721) и автоматизированные транзакции.
+                                                    Газ (Gas): Каждая операция в смарт-контракте имеет стоимость в виде комиссии (газа), оплачиваемой в ETH.
+                                                    Язык имеет особенности, направленные на повышение безопасности.
+                                                    <br />
+                                                </div>
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst18(btnst18 = !btnst18)} className={`pole5b3 ${btnst18 && 'active'}`}>Web3</button> <br />
+                                        {btnst18 && (
+                                            <div className='st18'>
+                                                <p className='st18zgl'>Web3</p>
+                                                <button onClick={closest18} className='btnst18-close'>close</button>
+
+                                                <div className='contentst18'>
+                                                    Концепция третьего поколения интернета, основанная на децентрализации,
+                                                    блокчейне и технологии владения данными, где пользователи контролируют свои цифровые активы,
+                                                    не корпорации. Web3 - это интернет владения, использующий искусственный интеллект,
+                                                    смарт-контракты и децентрализованные приложения dApps для создания прозрачной и безопасной сети.
+                                                    Децентрализация: Данные не хранятся на центральных серверах, а распределяются между пользователями.
+                                                    Владение данными: Принцип not your keys,
+                                                    not your data означает, что пользователи сами владеют своими приватными ключами и цифровыми активами.
+                                                    <br />
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst19(btnst19 = !btnst19)} className={`pole5b4 ${btnst19 && 'active'}`}>NFT</button> <br />
+                                        {btnst19 && (
+                                            <div className='st19'>
+                                                <p className='st19zgl'>NFT</p>
+                                                <button onClick={closest19} className='btnst19-close'>close</button>
+
+                                                <div className='contentst19'>
+                                                    non-fungible token, невзаимозаменяемый токен - уникальный цифровой сертификат,
+                                                    работающий на блокчейне, который удостоверяет право собственности на уникальный актив,
+                                                    например, цифровое искусство, видео, музыку или игровые предметы. В отличии от криптовалют,
+                                                    NFT нельзя обменять один на один, так как каждый токен уникален и подтверждает подлинность объекта.
+                                                    Чаще всего NFT создаются на базе Ethereum, Solana,
+                                                    что обеспечивает безопасность сделок.
+                                                    Несмотря на падение интереса к рынку в последние годы,
+                                                    технология NFT остается важным инструментом токенизации цифровых активов.
+
+                                                    <br />
+                                                </div>
+                                            </div>
+                                        )}
                                     </div>
                                 )}
                             </li>

@@ -1010,7 +1010,7 @@ header .st8 {
     width: 1400px;
     height: 1008px;
     position: absolute;
-    background: linear-gradient(#f5f8cdf3, #ffffff);
+    background: linear-gradient(#f5f8cd, #ffffff);
     font-size: 50px;
     margin-left: -412px;
     margin-top: -476px;
@@ -1247,6 +1247,356 @@ header .btnst12-close {
 }
 
 header .contentst12 {
+    width: 100%;
+    max-width: 1300px;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(#fffffff3, #ebf7e7);
+    padding: 35px;
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+header .st13 {
+    width: 1400px;
+    height: 1008px;
+    position: absolute;
+    background: linear-gradient(#fcfedf, #ffffff);
+    font-size: 50px;
+    margin-left: -412px;
+    margin-top: -384px;
+}
+
+header .st13zgl {
+    font-size: 62px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+    background: radial-gradient(#162416, #edf779f3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .btnst13-close {
+    border: none;
+    padding: 8px 12px;
+    font-size: 60px;
+    border-radius: 5%;
+    margin: auto;
+    background: linear-gradient(#eaf27df3, #ffffff);
+    color: #000000;
+    font-family: "IM Fell DW Pica SC", serif;
+    font-weight: 400;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+header .contentst13 {
+    width: 100%;
+    max-width: 1300px;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(#fffffff3, #ebf7e7);
+    padding: 35px;
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+header .st14 {
+    width: 1400px;
+    height: 1008px;
+    position: absolute;
+    background: linear-gradient(#fcfedf, #ffffff);
+    font-size: 50px;
+    margin-left: -412px;
+    margin-top: -476px;
+}
+
+header .st14zgl {
+    font-size: 62px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+    background: radial-gradient(#162416, #edf779f3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .btnst14-close {
+    border: none;
+    padding: 8px 12px;
+    font-size: 60px;
+    border-radius: 5%;
+    margin: auto;
+    background: linear-gradient(#eaf27df3, #ffffff);
+    color: #000000;
+    font-family: "IM Fell DW Pica SC", serif;
+    font-weight: 400;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+header .contentst14 {
+    width: 100%;
+    max-width: 1300px;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(#fffffff3, #ebf7e7);
+    padding: 35px;
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+header .st15 {
+    width: 1400px;
+    height: 1008px;
+    position: absolute;
+    background: linear-gradient(#fcfedf, #ffffff);
+    font-size: 50px;
+    margin-left: -412px;
+    margin-top: -568px;
+}
+
+header .st15zgl {
+    font-size: 62px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+    background: radial-gradient(#162416, #edf779f3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .btnst15-close {
+    border: none;
+    padding: 8px 12px;
+    font-size: 60px;
+    border-radius: 5%;
+    margin: auto;
+    background: linear-gradient(#eaf27df3, #ffffff);
+    color: #000000;
+    font-family: "IM Fell DW Pica SC", serif;
+    font-weight: 400;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+header .contentst15 {
+    width: 100%;
+    max-width: 1300px;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(#fffffff3, #ebf7e7);
+    padding: 35px;
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+header .st16 {
+    width: 1400px;
+    height: 1008px;
+    position: absolute;
+    background: linear-gradient(#f2f8ea, #ffffff);
+    font-size: 50px;
+    margin-left: -412px;
+    margin-top: -420px;
+}
+
+header .st16zgl {
+    font-size: 62px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+    background: radial-gradient(#162416, #edf779f3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .btnst16-close {
+    border: none;
+    padding: 8px 12px;
+    font-size: 60px;
+    border-radius: 5%;
+    margin: auto;
+    background: linear-gradient(#eaf27df3, #ffffff);
+    color: #000000;
+    font-family: "IM Fell DW Pica SC", serif;
+    font-weight: 400;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+header .contentst16 {
+    width: 100%;
+    max-width: 1300px;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(#fffffff3, #ebf7e7);
+    padding: 35px;
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+header .st17 {
+    width: 1400px;
+    height: 1008px;
+    position: absolute;
+    background: linear-gradient(#f2f8ea, #ffffff);
+    font-size: 50px;
+    margin-left: -412px;
+    margin-top: -512px;
+}
+
+header .st17zgl {
+    font-size: 62px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+    background: radial-gradient(#162416, #edf779f3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .btnst17-close {
+    border: none;
+    padding: 8px 12px;
+    font-size: 60px;
+    border-radius: 5%;
+    margin: auto;
+    background: linear-gradient(#eaf27df3, #ffffff);
+    color: #000000;
+    font-family: "IM Fell DW Pica SC", serif;
+    font-weight: 400;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+header .contentst17 {
+    width: 100%;
+    max-width: 1300px;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(#fffffff3, #ebf7e7);
+    padding: 35px;
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+header .st18 {
+    width: 1400px;
+    height: 1008px;
+    position: absolute;
+    background: linear-gradient(#f2f8ea, #ffffff);
+    font-size: 50px;
+    margin-left: -412px;
+    margin-top: -604px;
+}
+
+header .st18zgl {
+    font-size: 62px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+    background: radial-gradient(#162416, #edf779f3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .btnst18-close {
+    border: none;
+    padding: 8px 12px;
+    font-size: 60px;
+    border-radius: 5%;
+    margin: auto;
+    background: linear-gradient(#eaf27df3, #ffffff);
+    color: #000000;
+    font-family: "IM Fell DW Pica SC", serif;
+    font-weight: 400;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+header .contentst18 {
+    width: 100%;
+    max-width: 1300px;
+    position: absolute;
+    z-index: 10;
+    background: linear-gradient(#fffffff3, #ebf7e7);
+    padding: 35px;
+    border-radius: 12px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+header .st19 {
+    width: 1400px;
+    height: 1008px;
+    position: absolute;
+    background: linear-gradient(#f2f8ea, #ffffff);
+    font-size: 50px;
+    margin-left: -412px;
+    margin-top: -696px;
+}
+
+header .st19zgl {
+    font-size: 62px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+    background: radial-gradient(#162416, #edf779f3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .btnst19-close {
+    border: none;
+    padding: 8px 12px;
+    font-size: 60px;
+    border-radius: 5%;
+    margin: auto;
+    background: linear-gradient(#eaf27df3, #ffffff);
+    color: #000000;
+    font-family: "IM Fell DW Pica SC", serif;
+    font-weight: 400;
+    margin-right: 70px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+
+}
+
+header .contentst19 {
     width: 100%;
     max-width: 1300px;
     position: absolute;
