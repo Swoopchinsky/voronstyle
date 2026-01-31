@@ -108,9 +108,25 @@ export default function Header() {
         setBtnst19(!btnst19)
     }
 
+    let [btnst20, setBtnst20] = useState(false)
+    const closest20 = () => {
+        setBtnst20(!btnst20)
+    }
 
+    let [btnst21, setBtnst21] = useState(false)
+    const closest21 = () => {
+        setBtnst21(!btnst21)
+    }
 
+    let [btnst22, setBtnst22] = useState(false)
+    const closest22 = () => {
+        setBtnst22(!btnst22)
+    }
 
+    let [btnst23, setBtnst23] = useState(false)
+    const closest23 = () => {
+        setBtnst23(!btnst23)
+    }
 
 
 
@@ -400,7 +416,7 @@ export default function Header() {
                                                 <div className='contentst13'>
                                                     Изображение или надписи нарисованные краской или ченилами на стенах
                                                     и других поверхностях. Считается, что граффити тесно связанно
-                                                    с hip-hop культурой и рисунков в Нью-Йорским метрополитеном.
+                                                    с hip-hop культурой и рисунков в Нью-Йорским метрополитене.
                                                     <br />
                                                     Сегодня это вид уличного исскусства, форма художественного самоваражения. Произведения,
                                                     создаваемые граффити-художниками стали самостоятельным жанром, неотъемлемая часть культуры
@@ -415,7 +431,7 @@ export default function Header() {
                                         <button onClick={() => setBtnst14(btnst14 = !btnst14)} className={`pole4b2 ${btnst14 && 'active'}`}>Oil & canvas</button> <br />
                                         {btnst14 && (
                                             <div className='st14'>
-                                                <p className='st14zgl'>Sketch</p>
+                                                <p className='st14zgl'>Canvas & Oil</p>
                                                 <button onClick={closest14} className='btnst14-close'>close</button>
 
                                                 <div className='contentst14'>
@@ -435,7 +451,7 @@ export default function Header() {
                                         <button onClick={() => setBtnst15(btnst15 = !btnst15)} className={`pole4b3 ${btnst15 && 'active'}`}>Sketch</button>
                                         {btnst15 && (
                                             <div className='st15'>
-                                                <p className='st15zgl'>Oil & canvas</p>
+                                                <p className='st15zgl'>Skettch</p>
                                                 <button onClick={closest15} className='btnst15-close'>close</button>
 
                                                 <div className='contentst15'>
@@ -544,13 +560,99 @@ export default function Header() {
                                     </div>
                                 )}
                             </li>
-                            <li><button onClick={() => setMenuBut6(menuBut6 = !menuBut6)} className={`mb6 ${menuBut6 && 'active'}`} >project</button>
+                            <li><button onClick={() => setMenuBut6(menuBut6 = !menuBut6)} className={`mb6 ${menuBut6 && 'active'}`} >Project</button>
                                 {menuBut6 && (
                                     <div className='pole6'>
-                                        <button className='pole6b1'>React</button> <br />
-                                        <button className='pole6b2'>GitHub</button> <br />
-                                        <button className='pole6b3'>JavaScript</button> <br />
-                                        <button className='pole6b4'>Author</button> <br />
+                                        <button onClick={() => setBtnst20(btnst20 = !btnst20)} className={`pole6b1 ${btnst20 && 'active'}`}>React.JS</button> <br />
+                                        {btnst20 && (
+                                            <div className='st20'>
+                                                <p className='st20zgl'>React.JS</p>
+                                                <button onClick={closest20} className='btnst20-close'>close</button>
+
+                                                <div className='contentst20'>
+                                                    Декларативная JavaScript-Библиотека для разработка пользовательских интерфейсов.
+                                                    Был создан Джорданом Валке. Исходный код открыт в мае 2013 года.
+                                                    <br />
+                                                    Свойства передаются от родительских компонентов к дочерним.
+                                                    Компоненты получают свойства как множество неизменяемых (immutable) значений,
+                                                    поэтому компонент не может напрямую изменять свойства,
+                                                    но можно вызывать изменения через callback-функции. Свойство-вниз - Событие-наверх.
+                                                    Использует виртуальный DOM. Создает кэш-структуру в памяти,
+                                                    вычисляет разницу между состояниями интерфейса,
+                                                    для оптимального обновления.
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst21(btnst21 = !btnst21)} className={`pole6b2 ${btnst21 && 'active'}`}>GitHub Pages</button> <br />
+                                        {btnst21 && (
+                                            <div className='st21'>
+                                                <p className='st21zgl'>GitHub Pages</p>
+                                                <button onClick={closest21} className='btnst21-close'>close</button>
+
+                                                <div className='contentst21'>
+                                                    GitHub - крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки.
+                                                    Система контроля версий Git и разработан на Ruby on Rails и Erlang компанией GitHub, inc.
+
+                                                    (Logical Awesome) Social Coding. Ветви.
+                                                    Талисманом GitHub выбран осьмикот (octocat),
+                                                    который был найден Томом Престоном-Вернером на сервисе iStock.
+                                                    <br />
+                                                    Бесплатный хостинг для статических сайтов(HTML, CSS, JavaScript),
+                                                    который позволяет публиковать страницы прямо из вашего репозитория на GitHub.
+                                                    Сервис автоматически собирает Ваш сайт из файлов репозитория и делает доступным по уникальной ссылке.
+                                                    Шубист не ленись!
+
+
+                                                </div>
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst22(btnst22 = !btnst22)} className={`pole6b3 ${btnst22 && 'active'}`}>JavaScript</button> <br />
+                                        {btnst22 && (
+                                            <div className='st22'>
+                                                <p className='st22zgl'>JavaScript</p>
+                                                <button onClick={closest22} className='btnst22-close'>close</button>
+
+                                                <div className='contentst22'>
+                                                    Работает в Браузерах и на серверах, позволяя управлять элементами HTML и CSS,
+                                                    создавая динамический контент без перегрузки станицы. Frontend: Добавление интерактивности веб-станицам,
+                                                    создание игр, динамических стилей и анимации.
+                                                    Backend: Разработка серверных приложений при помощи платформы Node.js.
+                                                    Создание кросс-платформенных мобильных приложений. Манипулирование
+                                                    DOM:(Document Object Model) Изменение структуры и содержимого HTML-Документа в реальном времени.
+                                                    Менеджер пакетов npm (Node Packege Manager) для JavaScript поставляется Системой Node.JS.
+
+
+                                                </div>
+
+                                            </div>
+                                        )}
+                                        <button onClick={() => setBtnst23(btnst23 = !btnst23)} className={`pole6b4 ${btnst23 && 'active'}`}>Author</button> <br />
+                                        {btnst23 && (
+                                            <div className='st23'>
+                                                <p className='st23zgl'>Author</p>
+                                                <button onClick={closest23} className='btnst23-close'>close</button>
+
+                                                <div className='contentst23'>
+
+                                                    Игорь Борисович. VK Garri Looking. GitHub Swoopchinsky .
+                                                    Технические навыки: Visual Studio Code Основы JavaScript Node.JS npm React.JS Vue.JS TypeScript JSX
+                                                    Babel (Транспиляция синтаксиса:
+                                                    преобразование стрелочных функций, классов, деструктуризацию и другх возможностей ES6+ в старый синтаксис).
+                                                    GitHub Pages branch  API <br />
+                                                    Python pip (Package Installer for Python)
+                                                    Anaconda Python NumPy Matplotlib Jupyter Notebook Pandas Scikit-learn.
+
+                                                    <br />
+                                                    Хобби: Разработка, Спорт, Баскетбол, Бокс, Тренажёры, BMX, Penny board, Турник, Футбол, Шахиаты, Lego.
+                                                    <br />
+                                                    <address>+7 921 593 63 24  Пн - Пт 10.00 - 18.00 </address>
+
+
+                                                </div>
+
+                                            </div>
+                                        )}
 
                                     </div>
                                 )}
